@@ -1,0 +1,33 @@
+<div class="container">
+
+    <h2>Student Details</h2>
+  
+    <table>
+  
+      <tr>
+  
+        <th>ID</th>
+  
+        <th>Name</th>
+  
+        <th>Age</th>
+  
+        <th>Course</th>
+  
+      </tr>
+  
+      <tr *ngFor="let student of students">
+  
+        <td>{{ student.id }}</td>
+  
+        <td>{{ student.name }}</td>
+  
+        <td>{{ student.age }}</td>
+  
+        <td>{{ student.course }}</td>
+  
+      </tr>
+  
+    </table>
+  
+  </div>
